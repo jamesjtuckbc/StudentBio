@@ -1,0 +1,36 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+h2 {
+    display: inline-block;
+}
+
+img {
+    display:block ;
+}
+
+p {
+    display: inline-block;
+}
+
+
+.backgroundColor {
+    background-color: lightgray;
+}
+
+.yourName {
+    display: inline-block;
+
+}
+
+.contactInfo {
+    position: relative;
+
+}
