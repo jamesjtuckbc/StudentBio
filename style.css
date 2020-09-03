@@ -1,6 +1,13 @@
 body {
-    background-color: lightgray;
-}
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
+  }
+  
 
 h1 {
     color: white;
@@ -8,18 +15,22 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    display: inline-block;
-}
-
-img {
-    display:block ;
-}
+header {
+    background: #333;
+  }
 
 p {
-    display: inline-block;
+
 }
 
+a {
+    color: #d21034;
+  }
+
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+  }
 
 .backgroundColor {
     background-color: lightgray;
@@ -30,7 +41,23 @@ p {
 
 }
 
-.contactInfo {
-    position: relative;
+#bio,
+#contactInfo,
+#bioImg{
+    float: left;
+}
 
+#bio {
+    width: 70%;
+}
+
+#contactInfo {
+    width: 30%;
+
+}
+
+#bioImg {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
 }
